@@ -12,15 +12,13 @@ python2 meizu.py
 echo
 clear
 echo
-echo $red"          Tool akan di install dalam waktu 5 detik"
-echo $red"            harap sabar menunggu yaa sayang :v("   
+echo $red"            Tools Lagi Di Install Mohon Tunggu :)"   
 sleep 1
 echo '''\a
-\033[34;1m                              _
-\033[34;1m                             / |
-\033[34;1m                             | |
-\033[34;1m                             | |
-\033[34;1m                            _|_|_ '''
+\033[34;1m                  ╔══╗╔══╗╔══╗╔╦╗
+\033[34;1m                  ║══╣║╔╗║╚╗╔╝║║║
+\033[34;1m                  ╠══║║╠╣║─║║─║║║
+\033[34;1m                  ╚══╝╚╝╚╝─╚╝─╚═╝ '''
 sleep 1
 apt update && apt upgrade
 apt install nano
@@ -31,15 +29,13 @@ echo
 echo
 echo
 echo
-echo $red"         Tool akan di install dalam waktu 5 detik"
-echo $red"            harap sabar menunggu yaa sayang :v"
+echo $Yellow"         Tools Lagi Di Install Mohon Tunggu :)"
 sleep 1
 echo '''\a
-\033[32;1m                             ____
-\033[32;1m                            |___ \
-\033[32;1m                             __) |
-\033[32;1m                            / __/
-\033[32;1m                           |_____| '''
+\033[32;1m                  ╔══╗╔╦╗╔══╗
+\033[32;1m                  ╚╗╗║║║║║╔╗║
+\033[32;1m                  ╔╩╝║║║║║╠╣║
+\033[32;1m                  ╚══╝╚═╝╚╝╚╝ '''
 sleep 1
 apt install php
 pip2 install mechanize
@@ -50,15 +46,13 @@ echo
 echo
 echo
 echo
-echo $red"         Tool akan di install dalam waktu 5 detik"
-echo $red"            harap sabar menunggu yaa sayang :v"
+echo $biru"         Tools Lagi Di Install Mohon Tunggu :)"
 sleep 1
 echo '''\a
-\033[35;1m                            _____
-\033[35;1m                           |___ /
-\033[35;1m                             |_ \
-\033[35;1m                            ___) |
-\033[35;1m                           |____/ '''
+\033[35;1m                 ╔══╗╔══╗╔══╗╔══╗
+\033[37;1m                 ╚╗╔╝╚║║╝║╔═╣║╔╗║
+\033[37;1m                 ─║║─╔║║╗║╚╗║║╠╣║
+\033[37;1m                 ─╚╝─╚══╝╚══╝╚╝╚╝ '''
 sleep 1
 clear
 echo
@@ -93,22 +87,19 @@ sleep 1
 clear
 echo
 echo $pur"==================="$cy" ============================="
-echo $i"Ôûê"$pu"  AUTHOR  :  DAVII  "$i"                    Ôûê"
-echo $i"Ôûê"$pu"  WhatsApp:  087878656854"$i"                Ôûê"
-echo $i"Ôûê"$pu"  GMAIL   :  gamersjustice13@gmail.com"$i"     Ôûê"
-echo $i"Ôûê"$pu"  YOUTUBE :  Yamazaki Hack"$i"                 Ôûê"
+echo $i"Ôûê"$pu"  AUTHOR  :  XxXMisterDarkXxX  "$i"          Ôûê"
+echo $i"Ôûê"$pu"  Github  :  github.com/XxXMisterDarkXxX"$i" Ôûê"
+echo $i"Ôûê"$pu"  GMAIL   :  misterdark186@gmail.com"$i"     Ôûê"
+echo $i"Ôûê"$pu"  TEAM    :  Romanza Error System"$i"        Ôûê"
 echo $pur"==================="$cy" ============================="
 echo
-echo $cy"MeNu BRUTEPORCE NeWS:"
-echo $ku"["$me"1"$ku"]"$i" REPORT FB"
-echo $ku"["$me"2"$ku"]"$i" BRUTE PORCE"
-echo $ku"["$me"3"$ku"]"$i" BRUTE FORCE FB CRACKER"
-echo $ku"["$me"4"$ku"]"$i" MBF"
-echo $ku"["$me"5"$ku"]"$i" CLONING YAHOO"
-echo $ku"["$me"6"$ku"]"$i" OSIF"
-echo $ku"["$me"7"$ku"]"$i" PROFILEGUARD FB"
-echo $ku"["$me"8"$ku"]"$i" BOT REACTION FACEBOOK"
-echo $i"["$me"9"$i"]"$ku" EXIT"
+echo $cy"MeNu ToolS DarK:"
+echo $ku"["$me"1"$ku"]"$i" Key"
+echo $ku"["$me"2"$ku"]"$i" Spammer"
+echo $ku"["$me"3"$ku"]"$i" Dark Fb VIP"
+echo $ku"["$me"4"$ku"]"$i" Dark Fb Premium"
+echo $ku"["$me"5"$ku"]"$i" Sc Creator Deface"
+echo $i"["$me"6"$i"]"$ku" EXIT"
 echo
 echo $pur"Ôò¡ÔöÇ["$pur"Masukkan pilihan anda"$pur"]"
 read -p"Ôò¦ÔöÇ>> " pil
