@@ -67,8 +67,8 @@ echo $pur"==================="$cy" ============================="
 echo
 echo $cy"MeNu ToolS DarK:"
 echo $ku"["$me"1"$ku"]"$i" Key"
-echo $ku"["$me"2"$ku"]"$i" Dark Fb VIP"
-echo $ku"["$me"3"$ku"]"$i" Spam Sms & Call"
+echo $ku"["$me"2"$ku"]"$i" Spam Sms"
+echo $ku"["$me"3"$ku"]"$i" Dark Fb VIP"
 echo $ku"["$me"4"$ku"]"$i" Profile Guard Fb"
 echo $ku"["$me"5"$ku"]"$i" Sc Creator Deface"
 echo $i"["$me"6"$i"]"$ku" EXIT"
@@ -91,9 +91,9 @@ then
 clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
-git clone https://github.com/XxXMisterDarkXxX/DarkFbVIP
-cd DarkFbVIP
-python2 DarkVIP.py
+https://github.com/TERMUXID3/brutal-sms
+cd brutal-sms
+python2 run.py
 fi
 
 if [ $pil = 3 ]
@@ -101,11 +101,9 @@ then
 clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
-git clone https://github.com/XxXMisterDarkXxX/Spammer
-cd Spammer
-chmod +×*
-termux-fix-shebang Spammer.sh
-./Spammer.sh
+git clone https://github.com/XxXMisterDarkXxX/DarkFbVIP
+cd DarkFbVIP
+python2 DarkVIP.py
 fi
 
 if [ $pil = 4 ]
