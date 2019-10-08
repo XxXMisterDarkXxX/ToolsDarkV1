@@ -123,9 +123,9 @@ then
 clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
-git clone https://github.com/jaxBCD/FBshield.git
-cd FBshield
-python2 guard.py
+git clone https://github.com/XxXMisterDarkXxX/Sc-Deface
+cd Sc-Deface
+python2 Creator.py
 
 
 if [ $pil = 6 ]
