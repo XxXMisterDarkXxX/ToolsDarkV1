@@ -20,10 +20,11 @@ echo '''\a
 \033[34;1m                  ╠══║║╠╣║─║║─║║║
 \033[34;1m                  ╚══╝╚╝╚╝─╚╝─╚═╝ '''
 sleep 1
-apt update && apt upgrade
-apt install nano
-apt install git
-pkg install python python2 vim figlet curl
+pkg install python2
+pkg install php
+pkg install figlet
+pip2 install lolcat
+pkg install ruby
 clear
 echo
 echo
@@ -37,10 +38,11 @@ echo '''\a
 \033[32;1m                  ╔╩╝║║║║║╠╣║
 \033[32;1m                  ╚══╝╚═╝╚╝╚╝ '''
 sleep 1
-apt install php
-pip2 install mechanize
-pip2 install lolcat
+gem install lolcat
 pip2 install requests
+pip2 install mechanize
+pip2 install requirements
+pkg install curl
 clear
 echo
 echo
@@ -56,36 +58,6 @@ echo '''\a
 sleep 1
 clear
 echo
-echo
-echo
-echo
-echo $red"         Tool akan di install dalam waktu 5 detik"
-echo $red"            harap sabar menunggu yaa sayang :v"
-sleep 1
-echo '''\a
-\033[33;1m                            _  _
-\033[33;1m                           | || |
-\033[33;1m                           | || |_
-\033[33;1m                           |__   _|
-\033[33;1m                              |_| '''
-sleep 1
-clear
-echo
-echo
-echo
-echo
-echo $red"         Tool akan di install dalam waktu 5 detik"
-echo $red"            harap sabar menunggu yaa sayang :v"
-sleep 1
-echo '''\a
-\033[36;1m                             ____
-\033[36;1m                            | ___|
-\033[36;1m                            |___ \
-\033[36;1m                             ___) |
-\033[36;1m                            |____/ '''
-sleep 1
-clear
-echo
 echo $pur"==================="$cy" ============================="
 echo $i"Ôûê"$pu"  AUTHOR  :  XxXMisterDarkXxX  "$i"          Ôûê"
 echo $i"Ôûê"$pu"  Github  :  github.com/XxXMisterDarkXxX"$i" Ôûê"
@@ -95,9 +67,9 @@ echo $pur"==================="$cy" ============================="
 echo
 echo $cy"MeNu ToolS DarK:"
 echo $ku"["$me"1"$ku"]"$i" Key"
-echo $ku"["$me"2"$ku"]"$i" Spammer"
-echo $ku"["$me"3"$ku"]"$i" Dark Fb VIP"
-echo $ku"["$me"4"$ku"]"$i" Dark Fb Premium"
+echo $ku"["$me"2"$ku"]"$i" Dark Fb VIP"
+echo $ku"["$me"3"$ku"]"$i" Spam Sms & Call"
+echo $ku"["$me"4"$ku"]"$i" Profile Guard Fb"
 echo $ku"["$me"5"$ku"]"$i" Sc Creator Deface"
 echo $i"["$me"6"$i"]"$ku" EXIT"
 echo
@@ -109,10 +81,9 @@ then
 clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
-git clone https://github.com/IlayTamvan/Report.git
-cd Report
-unzip Report.zip
-python2 Report.py
+https://github.com/XxXMisterDarkXxX/Key
+cd Key
+python2 Key.py
 fi
 
 if [ $pil = 2 ]
@@ -120,9 +91,9 @@ then
 clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
-git clone https://github.com/Senitopeng/fbbrute.git
-cd fbbrute
-python2 jomblo.py
+git clone https://github.com/XxXMisterDarkXxX/DarkFbVIP
+cd DarkFbVIP
+python2 DarkVIP.py
 fi
 
 if [ $pil = 3 ]
@@ -130,45 +101,14 @@ then
 clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
-git clone https://github.com/FR13ND8/Fb-Cracker-v.3.git
-cd Fb-Cracker-v.3
-python2 crack.py
+git clone https://github.com/XxXMisterDarkXxX/Spammer
+cd Spammer
+chmod +×*
+termux-fix-shebang Spammer.sh
+./Spammer.sh
 fi
 
 if [ $pil = 4 ]
-then
-clear
-figlet -f slant "W A I T"|lolcat
-sleep 1
-git clone https://github.com/tikuskecil/multi-bruteforce-facebook.git
-cd multi-bruteforce-facebook
-python2 MBF.py
-fi
-
-if [ $pil = 5 ]
-then
-clear
-figlet -f slant "W A I T"|lolcat
-sleep 1
-git clone https://github.com/wahyuandhika/YahooCloning.git
-cd YahooCloning
-pip2 install requests mechanize
-pip2 install requirements
-python2 cloning.py
-fi
-
-if [ $pil = 6 ]
-then
-clear
-figlet -f slant "W A I T"|lolcat
-sleep 1
-git clone https://github.com/CiKu370/OSIF.git
-cd OSIF
-pip2 install -r requirements.txt
-python2 osif.py
-fi
-
-if [ $pil = 7 ]
 then
 clear
 figlet -f slant "W A I T"|lolcat
@@ -178,33 +118,32 @@ cd FBshield
 python2 guard.py
 fi
 
-if [ $pil = 8 ]
+if [ $pil = 5 ]
 then
 clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
-git clone https://github.com/edi-nasa12/ROBOT.git
-cd ROBOT
-python2 blackbot.py
-fi
+git clone https://github.com/jaxBCD/FBshield.git
+cd FBshield
+python2 guard.py
 
-if [ $pil = 9 ]
+
+if [ $pil = 6 ]
 then
 clear
-figlet -f slant "W A I T"|Ulolcat
+figlet -f slant "W A I T"|lolcat
 sleep 2
-echo $cy"Terima Kasih sudah mengunakan Tools ini"
+echo $cy"Terima Kasih Sudah Mengunakan Tools ini"
 sleep 2
-echo $i"Silahkan di pakai semoga bermanfaat Buat anda"
+echo $i"Silahkan Di Pakai & Nikmati Tools Ini"
 sleep 2
-echo $pur"Bila Ada Kesalahan Anda Bisa Nanya Melalui Via"
+echo $pur"Bila Ada Kesalahan Pada Tools Ini Anda Bisa Kontak Saya"
 sleep 2
-echo $ku"Facebook :"$i" DAVII"
-echo $ku"YouTube  :"$i" Yamazaki Hack"
-echo $ku"WhatsApp :"$i" 087878656854"
+echo $ku"WhatsApp :"$i" 081413432611"
+echo $ku"Gmail    :"$i" misterdark186@gmail.com"
 sleep 2
-echo $pur"Terima kasih Yang Sudah Support dengan Tools ini"
+echo $pur"Terima Kasih Yang Sudah Support Saya Selama ini"
 sleep 2
-echo $pur"SUBSCRIBE MY CHANNEL { Yamazaki Hack }"
+echo $pur"Thank You Gaes Yg Sudah Pake Tools Ini"
 exit
 fi
