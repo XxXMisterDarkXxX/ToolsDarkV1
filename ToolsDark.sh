@@ -111,9 +111,9 @@ then
 clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
-git clone https://github.com/jaxBCD/FBshield.git
-cd FBshield
-python2 guard.py
+git clone https://github.com/FR13ND8/ProfileGuardFb
+cd ProfileGuardFb
+php guard.php
 fi
 
 if [ $pil = 5 ]
