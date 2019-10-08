@@ -73,8 +73,8 @@ echo $ku"["$me"4"$ku"]"$i" Profile Guard Fb"
 echo $ku"["$me"5"$ku"]"$i" Sc Creator Deface"
 echo $i"["$me"6"$i"]"$ku" EXIT"
 echo
-echo $pur"Ôò¡ÔöÇ["$pur"Masukkan pilihan anda"$pur"]"
-read -p"Ôò¦ÔöÇ>> " pil
+echo $pur"XxX["$pur"Masukan Pilihan Anda"$pur"]"
+read -p"XxX>> " pil
 
 if [ $pil = 1 ]
 then
