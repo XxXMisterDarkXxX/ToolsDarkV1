@@ -1,14 +1,6 @@
 import os, sys
 
-print ("\033[1;32m╭━━╮┈┈┈╭━━╮┈┈┈┈┈
-┃╭╮┣━━━┫╭╮┃┈╭┳┳╮
-╰━┳╯▆┈▆╰┳━╯┈┃┃┃┃
-┈┈┃┓┈◯┈┏┃┈┈╭┫┗┗┃
-┈┈┃╰┳┳┳╯┃┈┈┃┃╭━┃
-╭━┻╮┗┻┛╭┻━╮╰┳━┳╯
-┃┈┈╰━━━╯┈┈╰━┛┈┃┈")
-
-print ("\033[1;32mSilahkan Masukin Username & Password ")
+print ("\033[1;32mMasukan Username & Password")
 
 username = 'XxXMisterDarkXxX'      
 
