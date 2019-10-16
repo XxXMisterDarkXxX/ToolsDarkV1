@@ -28,7 +28,7 @@ def main():
 
 		if pwd == password:
 
-			print "\033[1;32mAlhmdllh sudah masuk juga..", 
+			print "\033[1;32mSabar Tod Lagi Masuk!!", 
 
 			sys.exit()
 
