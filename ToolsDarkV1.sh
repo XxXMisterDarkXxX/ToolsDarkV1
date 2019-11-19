@@ -21,11 +21,11 @@ echo $i" |"$pu" Contack Gmail :"$ku" misterdark186@gmail.com"$i"|"
 echo $i"["$bi"•"$i"]"$me"───────────────────────────────────────────"$i"["$bi"•"$i"]"
 echo
 echo $i"─────────────────────────────────────"
-echo $i"|"$me" 1"$i" |"$cy" SPAM CALL Tanpa Batas    "$i"|"$i"
-echo $i"|"$me" 2"$i" |"$cy" BRUTEFORCE FB BR1G4D3    "$i"|"$i"
-echo $i"|"$me" 3"$i" |"$cy" Dark-FB Version5         "$i"|"$i"
-echo $i"|"$me" 4"$i" |"$cy" BRUTEFORCE FB MBF        "$i"|"$i"
-echo $i"|"$me" 5"$i" |"$cy" FACEBRUTE N1ght420       "$i"|"$i"
+echo $i"|"$me" 1"$i" |"$cy" Key                      "$i"|"$i"
+echo $i"|"$me" 2"$i" |"$cy" Dark Fb VIP              "$i"|"$i"
+echo $i"|"$me" 3"$i" |"$cy" Fake Kk & Ktp            "$i"|"$i"
+echo $i"|"$me" 4"$i" |"$cy" Create Sc Deface         "$i"|"$i"
+echo $i"|"$me" 5"$i" |"$cy" Spam Sms Unlimited       "$i"|"$i"
 echo $i"────────────────────────────────"$i"
 echo $i"|"$me"6"$i" |"$cy" INSTALL BAHAN DULU BABI  "$i"|"$i"
 echo $i"|"$me"7"$i" |"$cy" KELUAR/EXIT TOOLS        "$i"|"$i"
@@ -40,10 +40,9 @@ then
 clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
-git clone https://github.com/Muhamadba/MBFz 
-cd MBFz 
- ls
-php SpamCall.php
+git clone https://github.com/XxXMisterDarkXxX/Key 
+cd Key 
+python2 Key.py
 fi
 
 if [ $pil = 2 ]
@@ -51,9 +50,9 @@ then
 clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
-git clone https://github.com/FR13ND8/Fb-Cracker-v.3
-cd Fb-Cracker-v.3
-python2 crack.py
+git clone https://github.com/XxXMisterDarkXxX/DarkFbVIP
+cd DarkFbVIP
+python2 DarkVIP.py
 fi
 
 if [ $pil = 3 ]
@@ -74,9 +73,9 @@ then
 clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
-git clone https://github.com/FR13ND8/mbf
-cd mbf
-python2 MBF.py
+git clone https://github.com/XxXMisterDarkXxX/Sc-Deface
+cd Sc-Deface
+python2 Creator.py
 fi
 
 if [ $pil = 5 ]
@@ -84,7 +83,7 @@ then
 clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
-git clone https://github.com/N1ght420/FaceBrute
+git clone https://github.com/TERMUXID3/brutal-sms
 cd FaceBrute
 python fb.py
 fi
@@ -92,20 +91,15 @@ fi
 if [ $pil = 6 ]
 then
 clear
-apt update && apt upgrade
-apt install python2
-pip2 install urllib3 chardet certifi idna requests
-pkg install git
-pip2 install mechanize
-pkg install curl
-pkg install ruby
-pkg install gem
-gem install lolcat
-pkg install git
+pkg install python2
 pkg install php
-pkg install ruby cowsay toilet figlet
-pkg install neofetch
-pkg install nano
+pkg install figlet
+pip2 install lolcat
+pkg install ruby
+gem install lolcat
+pip2 install requests
+pip2 install mechanize
+pip2 install requirements
 figlet -f slant " S U K S E S "|lolcat
 fi
 
@@ -114,12 +108,12 @@ then
 clear
 figlet -f slant "E X I T"|lolcat
 sleep 2
-echo $cy"Terima Kasih Sudah Pakai Tool Saya"
+echo $cy"Terima Kasih Sudah Pakai Tools Saya"
 sleep 2
-echo $i"Bila Ada Kesalahan Kamu Bisa Nanya Kepada Saya"
+echo $i"Bila Ada Kesalahan Kamu Bisa Kontak Saya"
 sleep 2
-echo $ku"WhatsApp :"$i" 0895375872878"
-echo $ku"Facebook :"$i" MUHAMAD BADRU"
+echo $ku"WhatsApp :"$i" 0881413432611"
+echo $ku"Gmail :"$i" misterdark186@gmail.com"
 sleep 2
 echo $pur">> Thanks Yang Sudah Support Saya <<"
 exit
