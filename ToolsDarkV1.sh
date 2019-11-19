@@ -27,8 +27,8 @@ echo $i"|"$me" 3"$i" |"$cy" Dark-FB Version5         "$i"|"$i"
 echo $i"|"$me" 4"$i" |"$cy" BRUTEFORCE FB MBF        "$i"|"$i"
 echo $i"|"$me" 5"$i" |"$cy" FACEBRUTE N1ght420       "$i"|"$i"
 echo $i"────────────────────────────────"$i"
-echo $i"|"$me"18"$i" |"$cy" INSTALL BAHAN DULU COEG  "$i"|"$i"
-echo $i"|"$me"19"$i" |"$cy" KELUAR/EXIT PROGRAM      "$i"|"$i"
+echo $i"|"$me"6"$i" |"$cy" INSTALL BAHAN DULU BABI  "$i"|"$i"
+echo $i"|"$me"7"$i" |"$cy" KELUAR/EXIT TOOLS        "$i"|"$i"
 echo $i"─────────────────────────────────────"
 echo
 echo $me"┌==="$bi"["$i"XxXMisterDarkXxX"$bi"]"$me"======"$bi"["$i""Pilih Nomornya""$bi"]"
@@ -87,6 +87,26 @@ sleep 1
 git clone https://github.com/N1ght420/FaceBrute
 cd FaceBrute
 python fb.py
+fi
+
+if [ $pil = 6 ]
+then
+clear
+apt update && apt upgrade
+apt install python2
+pip2 install urllib3 chardet certifi idna requests
+pkg install git
+pip2 install mechanize
+pkg install curl
+pkg install ruby
+pkg install gem
+gem install lolcat
+pkg install git
+pkg install php
+pkg install ruby cowsay toilet figlet
+pkg install neofetch
+pkg install nano
+figlet -f slant " S U K S E S "|lolcat
 fi
 
 if [ $pil = 7 ]
